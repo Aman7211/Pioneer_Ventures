@@ -1,0 +1,10 @@
+.abc{
+background-image: url("https://img.freepik.com/free-vector/abstract-white-bokeh-glowing-lights-background_1017-24049.jpg?t=st=1719309391~exp=1719312991~hmac=eff20cc4ddb67d4a37388487a1b0a94457c088d57df6b667ba23dfc3b5e9e5d3&w=900")
+}
+
+.defg{
+    background-image: url("https://img.freepik.com/free-photo/vintage-pink-telephone-composition_23-2148913955.jpg?t=st=1719394840~exp=1719398440~hmac=26ec2804dcc1f6da43c0a2cb472c417ba3b3a809c7cda7d0fc5809d9112c5f08&w=1060");
+    background-size: cover;
+    background-attachment: fixed;
+}
+

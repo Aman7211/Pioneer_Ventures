@@ -1,0 +1,41 @@
+/* Header.css */
+.sticky_header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigation {
+    display: block;
+  }
+  
+  .show_menu {
+    display: block ;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .navigation {
+      width: 50%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      padding-top: 70px;
+      padding-left: 20px;
+      font-size: 20px;
+      background: rgb(241, 241, 241);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .navigation.show_menu {
+      transform: translateX(0);
+    }
+  
+    
+  }
+  
